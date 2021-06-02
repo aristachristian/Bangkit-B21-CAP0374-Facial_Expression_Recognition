@@ -7,6 +7,6 @@ Link to Cleaned Dataset : https://drive.google.com/file/d/1jYrm4fk9gfo4o9Nkq2dr0
 
 Link to Original Dataset : https://www.kaggle.com/mahmoudima/mma-facial-expression
 
-Link to Saved Model : https://drive.google.com/file/d/1IAHn7smNQ-mN94eofnNTMH9Wyxz_9SEm/view?usp=sharing
+Link to our Trained Facial Expression Recognition Model : https://drive.google.com/file/d/1IAHn7smNQ-mN94eofnNTMH9Wyxz_9SEm/view?usp=sharing
 
 Link to Web app template and code : https://github.com/krishnaik06/Deployment-Deep-Learning-Model
