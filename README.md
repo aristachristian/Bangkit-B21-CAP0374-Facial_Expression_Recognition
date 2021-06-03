@@ -1,9 +1,9 @@
 # try2
-Link to Other members Github Page
+## Link to Other members Github Page
 
 Link to Speech Emotion Recognition : https://github.com/joseph-k-git/Bangkit-B21-CAP0374-Speech_Emotion_Recognition <br />
 
-Other References :
+## Other References :
 
 Link to Face-Detection-OpenCV : https://github.com/informramiz/Face-Detection-OpenCV
 
