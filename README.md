@@ -1,6 +1,11 @@
 # try2
 Learning Git and Github
 
+Link to Speech Emotion Recognition : https://github.com/joseph-k-git/Bangkit-B21-CAP0374-Speech_Emotion_Recognition
+
+
+Other References :
+
 Link to Face-Detection-OpenCV : https://github.com/informramiz/Face-Detection-OpenCV
 
 Link to Cleaned Dataset : https://drive.google.com/file/d/1jYrm4fk9gfo4o9Nkq2dr0g8g5gV33FRI/view?usp=sharing
