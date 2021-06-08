@@ -1,20 +1,39 @@
 {% extends "base.html" %} {% block content %}
 
-<h2>Upload Expression Here</h2>
+<h2>Upload Video Here</h2>
 
 <div>
     <form id="upload-file" method="post" enctype="multipart/form-data">
         <label for="imageUpload" class="upload-label">
             Choose...
         </label>
-        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        <input type="file" name="file" id="imageUpload" onchange="selectedVideo(this);">
     </form>
 
     <div class="image-section" style="display:none;">
-        <div class="img-preview">
-            <div id="imagePreview">
-            </div>
-        </div>
+        <video autoplay id="video" controls width=50% height=50%>
+            <source id="source" type="video/mp4">
+        </video>
+        
+        <script>
+            function selectedVideo(self) {
+                var file = self.files[0];
+                var reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    var src = e.target.result;
+                    var video = document.getElementById("video");
+                    var source = document.getElementById("source");
+                    
+                    source.setAttribute("src", src);
+                    video.load();
+                    video.play();
+                };
+                
+                reader.readAsDataURL(file);
+            }
+        </script>
+        
         <div>
             <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
         </div>
