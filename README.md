@@ -1,7 +1,9 @@
 # try2
 ## Link to Other members Github Page
 
-Link to Speech Emotion Recognition : https://github.com/joseph-k-git/Bangkit-B21-CAP0374-Speech_Emotion_Recognition <br />
+Link to Speech Emotion Recognition : https://github.com/joseph-k-git/Bangkit-B21-CAP0374-Speech_Emotion_Recognition
+
+Link to Android Code : https://github.com/aldolvk/Online-Interview
 
 ## Steps To Replicate The Project
 
